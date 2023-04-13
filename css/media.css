@@ -53,6 +53,12 @@
       box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
       }
 
+      .mob-menu.is-hidden{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
       .menu-close-button{
         position: absolute;
         top: 24px;
