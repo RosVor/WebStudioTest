@@ -331,7 +331,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 72px;
+  gap: 24px;
   margin-top: 72px;
 }
 
