@@ -34,6 +34,7 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+  margin: 0;
 }
 
 ul, p, h1, h2, h3, h4, h5, h6 {
@@ -327,10 +328,11 @@ body {
 }
 
 .team-list{
-  gap: 72px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 72px;
+  margin-top: 72px;
 }
 
 .team-item {
