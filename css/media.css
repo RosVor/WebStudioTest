@@ -1,4 +1,4 @@
-@media screen and (min-width: 428px) and (max-width:767px){ 
+@media screen and (min-width: 320px) and (max-width:767px){ 
     .container {
       
     }
@@ -50,6 +50,7 @@
       overflow: auto;
       box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
       background-color: white;
+      padding: 80px 35px 40px 40px;
       }
       
       .mob-menu.is-hidden{
@@ -73,15 +74,9 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         fill: #2E2F42;
       }
-      
-      .menu-close-button-icon{
-       
-      }
 
     .mob-menu-list {
       display: block;
-      margin-top: 80px;
-      margin-left: 40px;
     }
 
     .mob-menu-list-item{
@@ -111,11 +106,12 @@
     }
 
     .mob-menu-address-main{
-      margin-left: 40px;
+      display: block;
     }
 
     .mob-menu-address-list{
       display: block;
+      margin-bottom: 48px;
     }
 
     .mob-menu-address-item{
@@ -145,8 +141,7 @@
     }
 
     .soc-mobile{
-      margin-bottom: 40px;
-      gap: calc((100%)/7);
+      gap: calc((100%)/8);
     }
 
 
@@ -154,20 +149,32 @@
     /* -------------------------Solutions-------------------------- */
 
       .solutions {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        text-align: center;
         max-width: 100%;
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/Dark-bgP.jpg);
         }
       
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 428px),  
-      screen and (min-resolution: 192dpi) and (min-width: 428px), screen and (min-resolution: 2dppx) and (min-width: 428px) {
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),  
+      screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
         .solutions {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/Dark-bgP2X.jpg);
         }
       }
 
+      .solutions-title{
+        font-size: 36px;
+        line-height: 1.07;
+        margin-bottom: 72px;
+      }
+
 
 
 /* ----------------------SOLUTIONS-ROW--------------------------- */
+    .container{
+      width: 320px;
+    }
     .solutions-row-item {
         margin-bottom: 72px;
     }
@@ -175,6 +182,10 @@
     .solutions-row-item:not(:first-child){
         margin-left: 0;
     }
+
+     .solutions-row-item:last-child{
+      margin-bottom: 0;
+     }
 
     .solutions-row-icon-item{
         display: none;
@@ -191,7 +202,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        width: 396px;
+        width: 264px;
     }
 /*------------------------------- doing-----------------------------*/
     .doing{
@@ -220,12 +231,15 @@
     }
   
     .customers-list {
-      gap: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 16px;
+      row-gap: 72px;
+      
     }
   
     .customers-item {
-      width: calc((100%)/3);
-      margin-bottom: 72px;
+     
     }
 
   /* -----------------------------footer--------------------------- */
@@ -252,6 +266,11 @@
       gap: 16px;
       margin-left: 0;
     }
+
+    .footer-name{
+      margin-bottom: 0;
+    }
+    
     .footer-descr{
       width: 268px;
     }
@@ -331,6 +350,8 @@
         /* -------------------------Solutions-------------------------- */
         .solutions {
           max-width: 100%;
+          padding-top:112px; 
+          padding-bottom:112px; 
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/Dark-bgT.jpg);
         }
       
@@ -342,8 +363,11 @@
         }
       }
 
+      .solutions-title{
+        margin-bottom: 36px;
+      }
+
     .solutions-row-list{
-      -moz-column-gap: 24px;
       column-gap: 24px;
       row-gap: 72px;
       flex-direction: row;
@@ -446,8 +470,11 @@
       margin-left: 24px;
       display: flex;
       flex-direction: column;
-      align-items: center;
       gap: 16px;
+    }
+
+    .footer-name{
+      margin-bottom: 0;
     }
 
     .footer-descr{
