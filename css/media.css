@@ -1,7 +1,5 @@
 @media screen and (min-width: 320px) and (max-width:767px){ 
-    .container {
-      
-    }
+
   
     section {
       padding-top: 96px;
@@ -141,7 +139,8 @@
     }
 
     .soc-mobile{
-      gap: calc((100%)/8);
+      gap: 64px;
+      justify-content: space-between;
     }
 
 
@@ -172,8 +171,8 @@
 
 
 /* ----------------------SOLUTIONS-ROW--------------------------- */
-    .container{
-      width: 320px;
+    .container-solutions-row{
+      width: 100%;
     }
     .solutions-row-item {
         margin-bottom: 72px;
@@ -202,7 +201,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        width: 264px;
+        width: 396px;
     }
 /*------------------------------- doing-----------------------------*/
     .doing{
@@ -230,6 +229,10 @@
       width: 264px;
     }
   
+.container-customers{
+  width: 428px;
+}
+
     .customers-list {
       display: flex;
       flex-wrap: wrap;
@@ -282,31 +285,55 @@
     .footer-form-subsc {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      width: 100%;
       gap: 24px;
     }
 
   .footer-subscribe {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
     gap: 16px;
+    align-items: center;
+  }
+
+  .footer-input{
+    width: 398px;
+  }
+
+  .footer-subsc-button{
+    margin-left: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------Tablet---------------------------- */
 
   @media screen and (min-width: 768px) and (max-width:1157px){
 
-    .container {
-     
-    }
     section {
       padding-top: 96px;
       padding-bottom: 96px;
     }
-
     .header{
       justify-content: center;
     }
@@ -437,19 +464,22 @@
     .team-soc-list {
       gap: calc((100%-30px)/14);
     }
-  
+
+    .container-customers{
+      width: 768px;
+    }
     .customers-list {
-      gap: 24px;
+      row-gap: 72px;
     }
   
     .customers-item {
-      width: calc((100%)/4);
-      margin-bottom: 72px;
-    }
-
-    .footer{
       
     }
+
+    .customers-link{
+      width: 168px;
+    }
+
     .container-footer{
       flex-direction: row;
       flex-wrap: wrap;
@@ -465,11 +495,10 @@
       margin-left: 24px;
       display: flex;
       flex-direction: column;
-      gap: 16px;
     }
 
     .footer-name{
-      margin-bottom: 0;
+      margin-bottom: 16px;
     }
 
     .footer-descr{
@@ -493,8 +522,7 @@
   @media screen and (min-width: 1158px) { 
 
     section {
-      padding-top: 120px;
-      padding-bottom: 120px;
+
     }
 
     .container {
@@ -509,7 +537,6 @@
       display: none;
     }
 
-.team-list{}
 
     .team-item{
       width: calc((100% - 72px) / 4);

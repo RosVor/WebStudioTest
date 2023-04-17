@@ -287,7 +287,7 @@ body {
 /*-----------------------------DOING---------------------------------*/
 .doing {
   padding-bottom: 120px;
- 
+  padding-top: 0;
 }
 
 .doing-list {
@@ -400,6 +400,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-customers {
 
+}
+
+.customers-item{
+  width: 168px;
+  height: 88px;
 }
 
 .customers-title {
@@ -549,6 +554,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 165px;
   padding: 8px 24px;
   gap: 16px;
   height: 40px;
@@ -612,6 +618,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .prtf-row-list {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
@@ -926,3 +933,14 @@ margin-bottom: 8px;
 .modal-button{
   text-align: center;
 }
+
+
+
+
+
+
+/* 
+Photo team adaptive
+Марджин схлопується
+всі блоки по центру в'юпорта на 320px
+*/
