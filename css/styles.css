@@ -25,6 +25,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+main{
+  width: fit-content
+}
 
 svg{
   display: block;
@@ -305,7 +308,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 /*-----------------------------TEAM---------------------------------*/
 .team {
@@ -331,7 +334,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .team-item {
