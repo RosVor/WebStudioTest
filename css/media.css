@@ -1,11 +1,11 @@
-@media screen and (max-width: 427px) {
+ @media screen and (max-width: 427px) {
   .footer{
     width: fit-content
   }
   main{
     width: fit-content
   }
-}
+} 
 
 @media screen and (min-width: 320px) and (max-width:767px){ 
 
