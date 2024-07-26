@@ -49,6 +49,10 @@ section {
   justify-content: center;
 }
 
+section#shadow-host-companion {
+    padding: 0;
+}
+
 button{
   cursor: pointer;
 }
